@@ -1,0 +1,107 @@
+##Ciclo de vida del software
+
+ **1. Define "Ciclo de vida del software".**
+El término ciclo de vida del software describe el desarrollo de software, desde la fase inicial hasta la fase final. El propósito es definir las distintas fases intermedias que se requieren para validar el desarrollo de la aplicación, es decir, para garantizar que el software cumpla los requisitos para la aplicación y verificación de los procedimientos de desarrollo: se asegura de que los métodos utilizados son apropiados. 
+ 
+ **2. Nombra las fases principales del desarrollo de software y explica brevemente que se hace en cada una de ellas.**
+• Definición de objetivos: definir el resultado del proyecto y su papel en la estrategia global.
+• Análisis de los requisitos y su viabilidad: recopilar, examinar y formular los requisitos del cliente y examinar cualquier restricción que se pueda aplicar.
+• Diseño general: requisitos generales de la arquitectura de la aplicación.
+• Diseño en detalle: definición precisa de cada subconjunto de la aplicación.
+• Programación (programación e implementación): es la implementación de un lenguaje de programación para crear las funciones definidas durante la etapa de diseño.
+• Prueba de unidad: prueba individual de cada subconjunto de la aplicación para garantizar que se implementaron de acuerdo con las especificaciones.
+• Integración: para garantizar que los diferentes módulos se integren con la aplicación. Éste es el propósito de la prueba de integración que está cuidadosamente documentada.
+• Prueba beta (o validación), para garantizar que el software cumple con las especificaciones originales.
+• Documentación: sirve para documentar información necesaria para los usuarios del software y para desarrollos futuros.
+• Implementación
+• Mantenimiento: para todos los procedimientos correctivos (mantenimiento correctivo) y las actualizaciones secundarias del software (mantenimiento continuo).
+
+ **3. Explica brevemente en qué consiste el modelo en cascada cuando hablamos de desarrollo de software.**
+Es una metodología lineal que consta de fases que hay que seguir y completar para poder avanzar a la fase siguiente. Después de cada etapa se realiza una o varias revisiones para comprobar si se puede pasar a la siguiente.
+ 
+ **4. Ventajas e inconvenientes del modelo en cascada.**
+Es un modelo rígido, poco flexible, y con muchas restricciones. Sin embargo, la consecución de fases ayuda a estructurar el desarrollo óptimo del programa.
+ 
+ **5. ¿Qué se entiende por verificación? ¿Y por validación?**
+Por verificación se entiende el que se asegure que los métodos son los apropiados para el desarrollo del software. Validación se refiere a la garantía de que el software cumple con los requisitos de la aplicación.
+ 
+ **6. Explica como funciona el modelo de desarrollo mediante creación de prototipos.**
+También conocido como modelo de desarrollo evolutivo, se inicia con la definición de los objetivos globales para el software, luego se identifican los requisitos conocidos y las áreas del esquema en donde es necesaria más definición. Este modelo se utiliza para dar al usuario una vista preliminar de parte del software. El prototipo debe ser construido en poco tiempo, usando los programas adecuados y no se deben utilizar muchos recursos porque, a partir de que este sea aprobado, se puede iniciar el verdadero desarrollo del software.
+La interacción ocurre cuando el prototipo se ajusta para satisfacer las necesidades del cliente. Esto permite que al mismo tiempo el desarrollador entienda mejor lo que se debe hacer y el cliente vea resultados a corto plazo.
+ 
+ **7. Explica como funciona el modelo espiral cuando se aplica al desarrollo orientado a objetos.**
+El modelo de ciclo de vida en espiral consiste en realizar diversas iteraciones, pasando por cada una de sus fases una y otra vez. A diferencia del modelo cascada que no tiene vuelta atrás, en el modelo en espiral se pueden hacer las iteraciones que se consideren necesarias ya que su enfoque va dirigido hacia el análisis de riesgos.
+Si se aplica al desarrollo orientado a objetos, las iteraciones evaluarían las clases y objetos, así como sus requisitos, y se irían resolviendo los fallos y las nuevas especificaciones.
+ 
+ **8.¿Qué cuatro principios rigen el desarrollo ágil expresados en el Manifiesto Ágil?**
+• *Individuos e interacciones* sobre procesos y herramientas.
+• *Software funcionando* sobre documentación extensiva.
+• *Colaboración con el cliente* sobre negociación contractual.
+• *Respuesta ante el cambio* sobre seguir un plan.
+
+ **9. ¿Qué es una *historia de usuario*? Consulta el siguiente enlace:**
+Representación de un requisito escrito en una o dos frases utilizando el lenguaje común del usuario. Cada historia de usuario debe ser limitada. Dentro de la metodología XP las historias de usuario deben ser escritas por los usuarios.
+ 
+ **10. Haz un resumen sobre que se entiende por *Lean software* y qué principios lo rigen. Consulta el siguiente enlace:**
+Se entiende por Lean software el desarrollo de una aplicación a través de “la ley del mínimo esfuerzo”: se busca conseguir más, haciendo lo mínimo necesario. Es decir, si no se está seguro de que algo vaya a funcionar, no se hace. Esto no quiere decir que no haya una formación continua y vasta en el equipo. También se hace uso de una reciprocidad continua con el cliente para ayudar a ese proceso de realizar estimaciones inútiles e ir trabajando paso a paso.
+El desarrollo lean puede resumirse en siete principios:
+• Eliminar los desperdicios.
+• Amplificar el aprendizaje.
+• Decidir lo más tarde posible.
+• Entregar tan rápido como sea posible.
+• Capacitar al equipo.
+• Construir integridad intrínseca.
+• Véase todo el conjunto.
+ 
+ **11. KANBAN. Estudia las ventajas e inconvenientes de tener una pizarra web digital para la metodología Kanban. Puedes consultar los siguientes enlaces:**
+La metodología Kanban se centra en lo visual para organizar procesos. Optimiza la búsqueda de la tarea a realizar en cada momento por su alto contraste visual. También hace posible ver el estado de las tareas.
+Si se utiliza una pizarra web digital, hace que la organización sea visible para todos los empleados, además se facilita el poder modificar el plan original o sobreescribirlo en la propia pizarra.
+Como inconveniente se encuentra el coste de las pizarras web digitales.
+ 
+ **12. KANBAN. Haz un resumen de la metodología Kanban e indica sus diferencias frente a SCRUM. Puedes consultar el siguiente enlace:**
+Para Kanban los proyectos son un continuo de tareas secuenciales y que usa un soporte visual para ver el estado de cada tarea en tiempo real.
+Scrum por su parte, se divide en intervalos de tareas llamados Iteraciones. Por lo que si interesa una activa retroalimentación por parte del cliente, es más adecuada.
+ 
+ **13. SCRUM. Explica como funciona Scrum. Consulta los siguientes enlaces:**
+Scrum es un proceso de creación colaborativo que se estructura mediante un horario de planificación y entrega. Su premisa es colaboración y sincronizaciones diarias con el equipo, así como una estrecha y continua comunicación con el cliente, el cual forma parte en la planificación del proyecto. 
+  
+ **14. SCRUM. Define los siguientes términos:**
+ >**-Product backlog:** Lista de requisitos priorizada: Representa la visión y expectativas del cliente respecto a los objetivos y entregas del producto o proyecto. El cliente es el responsable de crear y gestionar la lista (con la ayuda del jefe de proyecto y del equipo, quien proporciona el coste estimado de completar cada requisito). Dado que refleja las expectativas del cliente, esta lista permite involucrarle en la dirección de los resultados del producto o proyecto.
+ >**-Sprint backlog:** Lista de tareas de la iteración: Lista de tareas que el equipo elabora en la reunión de planificación de la iteración (Sprint planning) como plan para completar los objetivos/requisitos seleccionados para cada iteración y que se compromete a demostrar al cliente al finalizar dicha iteración. Esta lista permite ver las tareas donde el equipo está teniendo problemas y no avanza, con lo que le permite tomar decisiones al respecto. Para cada uno de los objetivos/requisitos se muestran sus tareas, el esfuerzo pendiente para finalizarlas y la autoasignación que han hecho los miembros del equipo.
+ 
+ **15. SCRUM. En la terminología Scrum qué terminos se utilizan como sinónimo de:**
+ >**-Jefe de proyecto:** Scrum Master
+ >**-Cliente:** Product Owner
+ >**-Equipo de desarrollo:** Team
+ 
+ **16. SCRUM. Haz un resumen de los requisitos para poder utilizar Scrum. Consulta el siguiente enlace:**
+• Cultura de empresa basada en trabajo en equipo, delegación, creatividad y mejora continua.
+• Compromiso del cliente en la dirección de los resultados del proyecto, gestión del ROI y disponibilidad para poder colaborar.
+• Compromiso de la Dirección de la organización para resolver problemas endémicos y realizar cambios organizativos, formando equipos autogestionados y multidisciplinares y fomentando una cultura de gestión basada en la colaboración y en la facilitación llevada a cabo por líderes al servicio del equipo.
+• Compromiso conjunto y colaboración de los miembros del equipo.
+• Relación entre proveedor y cliente basada en ganar-ganar, colaboración y transparencia.
+• Facilidad para realizar cambios en el proyecto.
+• Tamaño de cada equipo entre 5 y 9 personas (con técnicas específicas de planificación y coordinación cuando varios equipos trabajan en el mismo proyecto).
+• Equipo trabajando en un mismo espacio común para maximizar la comunicación.
+• Dedicación del equipo a tiempo completo.
+• Estabilidad de los miembros del equipo.
+ 
+ **17. XP. Explica los 5 valores de la Programación Extrema.**
+• Simplicidad: es la base de la programación extrema. Se simplifica el diseño para agilizar el desarrollo y facilitar el mantenimiento. Un diseño complejo del código junto a sucesivas modificaciones por parte de diferentes desarrolladores hacen que la complejidad aumente exponencialmente.
+• Comunicación: se realiza de diferentes formas, para los programadores el código comunica mejor cuanto más simple sea. Si el código es complejo hay que esforzarse para hacerlo inteligible. El código auto-documentado es más fiable que los comentarios ya que éstos últimos pronto quedan desfasados con el código a medida que es modificado. Debe comentarse sólo aquello que no va a variar. Los programadores se comunican constantemente gracias a la programación por parejas. La comunicación con el cliente es fluida ya que el cliente forma parte del equipo de desarrollo. El cliente decide que características tienen prioridad y siempre debe estar disponible para solucionar dudas.
+• Retroalimentación (feedback): Al estar el cliente integrado en el Proyecto, su opinión sobre el estado del proyecto se conoce en tiempo real. Al realizarse ciclos muy cortos tras los cuales se muestran resultados, se minimiza el tener que rehacer partes que no cumplen con los requisitos y ayuda a los programadores a centrarse en lo que es más importante.
+• Hay que ser valiente para confiar en que la programación por parejas beneficia la calidad del código sin repercutir negativamente en la productividad. Se requiere coraje para implementar las características que el cliente quiere ahora sin caer en la tentación de optar por un enfoque más flexible que permita futuras modificaciones.
+• Respeto: El respeto se manifiesta de varias formas. Los miembros del equipo se respetan los unos a otros. Los miembros respetan su trabajo porque siempre están luchando por la alta calidad en el producto y buscando el diseño óptimo o más eficiente para la solución a través de la refactorización del código. Los miembros del equipo respetan el trabajo del resto no haciendo menos a otros, una mejor autoestima en el equipo eleva su ritmo de producción.
+ 
+ **18. XP. ¿Cuáles son las características distintivas de XP frente a otras metodologías ágiles? Explícalas. Puedes consultar el siguiente enlace:**
+• El juego de la planificación. Es un permanente diálogo entre las partes empresarial (deseable) y técnica (posible).
+• Pequeñas entregas. Cada versión debe de ser tan pequeña como fuera posible, conteniendo los requisitos de negocios más importantes, las versiones tiene que tener sentido como un todo. La planificación se suele hacer de 1 a 2 meses.
+• Metáfora. Una metáfora es una historia que todo el mundo puede contar a cerca de cómo funciona el sistema. Las metáforas ayudan a cualquier persona a entender el objeto del programa.
+• Diseño sencillo. Cuando implementamos nuevas características en nuestros programas nos planteamos la manera de hacerlo lo mas simple posible. Después de implementar esta característica, nos preguntamos como hacer el programa mas simple sin perder funcionalidad, este proceso se le denomina recodificar o refactorizar. Esto a veces nos puede llevar a hacer mas trabajo del necesario, pero a la vez estaremos preparando nuestro sistema para que en un futuro acepte nuevos cambios y pueda albergar nuevas características.
+• Pruebas. No debe existir ninguna característica en el programa que no haya sido probada, los programadores escriben pruebas para chequear el correcto funcionamiento del programa, los clientes realizan pruebas funcionales. El resultado un programa mas seguro que conforme pasa el tiempo es capaz de aceptar nuevos cambios.
+• Refactorización. Hacer el programa mas simple sin perder funcionalidad.
+• Programación por parejas. Todo el código de producción lo escriben dos personas frente al ordenador, con un sólo ratón y un sólo teclado. Cada miembro de la pareja juega su papel: uno codifica en el ordenador y piensa la mejor manera de hacerlo, el otro piensa mas estratégicamente. El emparejamiento es dinámico, cualquier miembro del equipo se puede emparejar con cualquiera.
+• Integración continua. El código se debe integrar como mínimo una vez al día, y realizar las pruebas sobre la totalidad del sistema. Una pareja de programadores se encargara de integrar todo el código en una maquina y realizar todas las pruebas hasta que estas funcionen al 100%.
+• 40 horas semanales. Las horas extras son síntoma de serios problemas en el proyecto, la regla de XP dice nunca 2 semanas seguidas realizando horas extras.
+• Cliente en casa. Un cliente real debe sentarse con el equipo de programadores, estar disponible para responder a sus preguntas, resolver discusiones y fijar las prioridades. 
+• Estándares de codificación. Si los programadores van a estar tocando partes distintas del sistema, intercambiando compañeros, haciendo refactoring, debemos de establecer un estándar de codificación aceptado e implantado por todo el equipo. 
