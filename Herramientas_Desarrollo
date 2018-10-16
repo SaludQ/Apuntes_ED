@@ -1,0 +1,37 @@
+#**HERRAMIENTAS DE DESARROLLO**
+
+**1. ¿Para qué sirve un compilador? ¿Qué tipo de archivo obtenemos tras compilar?**
+Un compilador sirve para traducir el programa hecho en lenguaje de programación, a un lenguaje de máquina que pueda ser comprendido por el equipo y pueda ser procesado o ejecutado por este.
+El tipo de archivo que se genera es uno ejecutable.
+
+**2. ¿Para qué sirve un enlazador? ¿Qué tipo de archivo obtenemos tras enlazar?**
+Un enlazador sirve para unir el código objeto del programa que se está desarrollando con el código objeto de subprogramas que utilices para el desarrollo.
+ En programación, un enlazador es un módulo o programa que junta los ficheros de código objetos (generados en la primer parte de la compilación), la información de todos los recursos necesarios (biblioteca), elimina los recursos que no se necesitan y enlaza el código objeto con sus bibliotecas.
+ Tras enlazar se genera un archivo ejecutable o biblioteca.
+
+**3. ¿Para qué sirve un intérprete? ¿Obtenemos algún archivo tras interpretar?**
+Un intérprete sirve para traducir y ejecutar el código línea a línea, normalmente sin guardar el resultado de dicha traducción. Los programas interpretados suelen ser más lentos que los compilados debido a la necesidad de traducir el programa mientras se ejecuta.
+No se obtiene ningún archivo al interpretar un código.
+
+**4. Explica cada uno de los siguientes conceptos e indica la relación entre ellos.**
+**- Código fuente:** Texto redactado en un lenguaje de programación determinado con los pasos a seguir de un programa.
+**- Código objeto:**
+**- Código binario:**
+
+
+**5. ¿Qué tipo de código es el *bytecode* generado por el compilador Java?**
+
+
+**Bibliografía:**
+- http://culturacion.com/que-es-un-compilador/
+- http://michelletorres.mx/que-es-un-compilador-y-como-funciona/
+- https://es.wikipedia.org/wiki/Compilador
+- http://www.carlospes.com/minidiccionario/enlazador.php
+- http://www.alegsa.com.ar/Dic/enlazador.php
+- https://sites.google.com/site/informaticaactualysencilla/software/enlazadores
+- http://culturacion.com/que-es-un-interprete/
+- https://www.ecured.cu/Int%C3%A9rprete_(Inform%C3%A1tica) 
+- https://es.wikipedia.org/wiki/Int%C3%A9rprete_(inform%C3%A1tica) 
+- https://www.1and1.es/digitalguide/paginas-web/desarrollo-web/codigo-fuente-definicion-con-ejemplos/
+-https://es.wikipedia.org/wiki/C%C3%B3digo_fuente
+- 
