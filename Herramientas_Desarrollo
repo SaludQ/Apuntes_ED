@@ -15,12 +15,12 @@ No se obtiene ningún archivo al interpretar un código.
 
 **4. Explica cada uno de los siguientes conceptos e indica la relación entre ellos.**
 **- Código fuente:** Texto redactado en un lenguaje de programación determinado con los pasos a seguir de un programa.
-**- Código objeto:**
-**- Código binario:**
+**- Código objeto:** Conjunto de instrucciones y datos escritos en un lenguaje que entiende el ordenador directamente: binario o código máquina. Provienen de la traducción de cierto código fuente, es un fragmento del programa final y es específico de la plataforma de ejecución.
+**- Código binario:** Sistema numérico usado para la representación de textos, o procesadores de instrucciones de computadora, utilizando el sistema binario. Este sistema es un método de representación de números a la base 2, en el que cada lugar de un número corresponde a una potencia de 2. El código binario usa sólo los dígitos 1 (abierto) y 0 (cerrado).
 
 
 **5. ¿Qué tipo de código es el *bytecode* generado por el compilador Java?**
-
+El bytecode es un código intermedio más abstracto que el código máquina. Habitualmente es tratado como un archivo binario que contiene un programa ejecutable similar a un módulo objeto, que es un archivo binario producido por el compilador cuyo contenido es el código objeto o código máquina . 
 
 **Bibliografía:**
 - http://culturacion.com/que-es-un-compilador/
@@ -34,4 +34,7 @@ No se obtiene ningún archivo al interpretar un código.
 - https://es.wikipedia.org/wiki/Int%C3%A9rprete_(inform%C3%A1tica) 
 - https://www.1and1.es/digitalguide/paginas-web/desarrollo-web/codigo-fuente-definicion-con-ejemplos/
 -https://es.wikipedia.org/wiki/C%C3%B3digo_fuente
-- 
+- http://entornosdedesarrollo.blogspot.com/2011/11/codigo-fuente-codigo-objeto-y-codigo.html
+- https://es.wikipedia.org/wiki/C%C3%B3digo_binario
+- https://techlandia.com/codigo-binario-info_292179/
+- https://es.wikipedia.org/wiki/Bytecode
