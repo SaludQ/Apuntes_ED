@@ -1,5 +1,7 @@
 #**HERRAMIENTAS DE DESARROLLO**
 
+##**Introducción**
+
 **1. ¿Para qué sirve un compilador? ¿Qué tipo de archivo obtenemos tras compilar?**
 Un compilador sirve para traducir el programa hecho en lenguaje de programación, a un lenguaje de máquina que pueda ser comprendido por el equipo y pueda ser procesado o ejecutado por este.
 El tipo de archivo que se genera es uno ejecutable.
@@ -38,3 +40,104 @@ El bytecode es un código intermedio más abstracto que el código máquina. Hab
 - https://es.wikipedia.org/wiki/C%C3%B3digo_binario
 - https://techlandia.com/codigo-binario-info_292179/
 - https://es.wikipedia.org/wiki/Bytecode
+
+##**Herramientas de Desarrollo**
+
+**2. Para cada uno de los lenguajes anteriores, indica el proceso realizado para conseguir ejecutar el código: ¿compilación o interpretación?**
+- **bash:** interpretación
+- **python:** interpretación
+- **php:** interpretación
+- **javascript:** interpretación
+- **c:** compilación
+- **c++:** compilación
+- **java:** compilación
+- **ruby:** interpretación
+- **go:** compilación
+- **rust:** compilación
+- **lisp:** interpretación
+- **nasm:** compilación
+
+**3. Para cada uno de los lenguajes anteriores, indica el nombre del compilador o interprete utilizado en GNU/Linux.**
+- **bash:** terminal
+- **python:** python
+- **php:** php
+- **javascript:** node
+- **c:** gcc
+- **c++:** g++
+- **java:** default-jdk y default-jdre
+- **ruby:** ruby
+- **go:** golang
+- **rust:** rustc
+- **lisp:** clisp
+- **nasm:** nasm
+
+**4. Investiga y averigua que extensión tienen los archivos de código fuente de los siguientes lenguajes:**
+- **bash:** .sh
+- **python:** .py
+- **php:** .php
+- **javascript:** .js
+- **c:** .c
+- **c++:** .cpp
+- **java:** .java
+- **ruby:** .rb
+- **go:** .go
+- **rust:** .rs
+- **lisp:** .lisp
+- **ensamblador nasm:** .asm
+
+**5. Scripts ejecutables para los lenguajes interpretados. Edita los scripts para los siguientes lenguajes:**
+- **bash:**
+- **python:**
+- **php:**
+- **javascript:**
+- **java:**
+- **ruby:**
+- **go:**
+- **rust:**
+- **lisp:**
+
+**6. ¿Qué extensión tienen los archivos de código objeto?**
+
+
+**7. Lenguaje C. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:**
+
+
+**8. Lenguaje C. Código en varios archivos. Obtener el código binario ejecutable a partir del código objeto de los 3 archivos anteriores:**
+
+
+**9. Lenguaje C++. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:**
+
+
+**10. Lenguaje C++. Código en varios archivos. Obtener el código binario ejecutable a partir del código objeto de los 3 archivos anteriores:**
+
+
+**11. Bibliotecas. Define que se entiende por biblioteca o librería y los tipos que existen.**
+
+
+**12. Bibliotecas. ¿Qué tipo es el más utilizado actualmente? ¿Por qué?**
+
+
+**13. Bibliotecas. Crea una biblioteca dinámica en C que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.**
+
+
+**14. Bibliotecas. Crea una biblioteca dinámica en Java que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.**
+
+
+**15. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas estáticas.**
+
+
+**16. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas dinámicas.**
+
+
+**17. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo ejecutable para código fuente en C con make. Haz uso de un buildfile.**
+
+
+**18. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo .jar para código fuente en Java con Ant. Haz uso de un buildfile.**
+
+**19. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo .jar para código fuente en Java con Maven. Haz uso de un buildfile.**
+
+
+**20. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo .jar para código fuente en Java con Gradle. Haz uso de un buildfile.**
+
+
+**21. CMake. Automatiza el proceso de compilación de ejecutable y bibliotecas, su enlazado y la generación del archivo ejecutable para código fuente en C++. Crea un buildfile con CMake.**
