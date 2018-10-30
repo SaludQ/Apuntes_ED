@@ -86,18 +86,68 @@ El bytecode es un código intermedio más abstracto que el código máquina. Hab
 - **ensamblador nasm:** .asm
 
 **5. Scripts ejecutables para los lenguajes interpretados. Edita los scripts para los siguientes lenguajes:**
-- **bash:**
+- **bash:** 
+1. Editamos archivo hola.sh
+	#!/usr/bin/env bash
+echo "Hola mundo"
+2. Damos permisos de ejecución
+chmod +x hola.sh
+3. Ejecutamos
+./hola.sh
 - **python:**
+1. Editamos archivo hola.py
+	#!/usr/bin/env python
+print "Hola mundo"
+2. Damos permisos de ejecución
+chmod +x hola.py
+3. Ejecutamos
+./hola.py
 - **php:**
+1. Editamos archivo hola.php
+	#!/usr/bin/env php
+<?php
+	echo "Hola mundo\n"
+?>
+2. Damos permisos de ejecución
+chmod +x hola.php
+3. Ejecutamos
+./hola.php
 - **javascript:**
+1. Editamos archivo hola.js
+	#!/usr/bin/env node
+console.log('Hola mundo');
+2. Damos permisos de ejecución
+chmod +x hola.js
+3. Ejecutamos
+./hola.js
 - **java:**
+1. Empaquetamos
+jar cvfe hola.jar Hola Hola.class 
+2. Damos permisos de ejecución
+chmod +x hola.jar
+3. Ejecutamos
+./hola.jar
 - **ruby:**
+1. Editamos archivo hola.rb
+	#!/usr/bin/env ruby
+puts "Hola mundo"
+2. Damos permisos de ejecución
+chmod +x hola.rb
+3. Ejecutamos
+./hola.rb
 - **go:**
 - **rust:**
 - **lisp:**
+1. Editamos archivo hola.lisp
+	#!/usr/bin/env clisp
+(format t "Hola mundo")
+2. Damos permisos de ejecución
+chmod +x hola.lisp
+3. Ejecutamos
+./hola.lisp
 
 **6. ¿Qué extensión tienen los archivos de código objeto?**
-
+Los archivos de código objeto tienen extensión .o.
 
 **7. Lenguaje C. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:**
 
