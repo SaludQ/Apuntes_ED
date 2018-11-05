@@ -147,25 +147,42 @@ chmod +x hola.lisp
 ./hola.lisp
 
 **6. ¿Qué extensión tienen los archivos de código objeto?**
-Los archivos de código objeto tienen extensión .o.
+- **bash:** .shc
+- **python:** .pyc
+- **php:** 
+- **javascript:** 
+- **c:** .o
+- **c++:** .o
+- **java:** .class
+- **ruby:**
+- **go:** 
+- **rust:** 
+- **lisp:** 
+- **nasm:** 
 
 **7. Lenguaje C. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:**
-
+[Aquí se encuentran los archivos .c, .o y el programa.](https://github.com/SaludQ/Apuntes_ED/tree/master/LenguajeC) 
 
 **8. Lenguaje C. Código en varios archivos. Obtener el código binario ejecutable a partir del código objeto de los 3 archivos anteriores:**
-
+En el enlace del ejercicio 7.
 
 **9. Lenguaje C++. Código en varios archivos. Obtener el código objeto a partir del código fuente de los 3 archivos siguientes:**
-
+[Aquí se encuentran los archivos .cpp, .o y el programa.](https://github.com/SaludQ/Apuntes_ED/tree/master/LenguajeC%2B) 
 
 **10. Lenguaje C++. Código en varios archivos. Obtener el código binario ejecutable a partir del código objeto de los 3 archivos anteriores:**
-
+En el enlace del ejercicio 9.
 
 **11. Bibliotecas. Define que se entiende por biblioteca o librería y los tipos que existen.**
-
+Es un conjunto de implementaciones funcionales, codificadas en un lenguaje de programación, que ofrece una interfaz bien definida para la funcionalidad que se invoca.
+A diferencia de un programa ejecutable, el comportamiento que implementa una biblioteca no espera ser utilizada de forma autónoma (un programa sí: tiene un punto de entrada principal), sino que su fin es ser utilizada por otros programas, independientes y de forma simultánea. Por otra parte, el comportamiento de una biblioteca no tiene por qué diferenciarse demasiado del que pudiera especificarse en un programa. Es más, unas bibliotecas pueden requerir de otras para funcionar, pues el comportamiento que definen refina, o altera, el comportamiento de la biblioteca original; o bien la hace disponible para otra tecnología o lenguaje de programación.
+Las bibliotecas pueden vincularse a un programa (o a otra biblioteca) en distintos puntos del desarrollo o la ejecución, según el tipo de vínculo que se quiera establecer, existen diferentes tipos de bibliotecas:
+- Estática.
+- Dinámica.
+- Remota.
+- Plugins.
 
 **12. Bibliotecas. ¿Qué tipo es el más utilizado actualmente? ¿Por qué?**
-
+Actualmente, lo normal es distribuir la funcionalidad básica de una aplicación en bibliotecas dinámicas y, la funcionalidad opcional en forma de plugins. Esto se debe a que al tener una biblioteca dinámica, la aplicación pesa menos y puede hacer uso de la misma sólo cuando le sea necesario.
 
 **13. Bibliotecas. Crea una biblioteca dinámica en C que proporcione las funciones para sumar, restar, multiplicar y dividir 2 números enteros. Crea un programa que haga uso de ella y comprueba que se ejecuta correctamente.**
 
@@ -174,10 +191,10 @@ Los archivos de código objeto tienen extensión .o.
 
 
 **15. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas estáticas.**
-
+Las bibliotecas estáticas son aquellas en las que el código de dicha biblioteca dentro del código del programa que la usa. Dentro de sus **ventajas** se encuentra que las actualizaciones de la biblioteca no le afectan, ya que no se modifica en el propio código del programa y, que el programa es autocontenido, es decir, que dentro de su código incluye todo lo que necesita. Por otro lado, sus **desventajas** son que el tamaño del programa es mayor y, que como dijimos en las ventajas, no se beneficia de las actualizaciones de la biblioteca.
 
 **16. Bibliotecas. Busca información y explica las ventajas y desventajas de usar bibliotecas dinámicas.**
-
+Las bibliotecas dinámicas son aquellas en la que su código no se incluye en el código del programa, si no que se realiza un vínculo a dicha biblioteca. Tiene como **ventajas** que el tamaño del programa es menor y que las actualizaciones le afectan automáticamente. Como **desventajas** encontramos que el programa no es autocontenido, por lo que se tiene que dar el enlazado con la biblioteca y, que las actualizaciones no le afectan tanto positiva como negativamente.
 
 **17. Build. Automatiza el proceso de compilación de ejecutable y biblioteca, su enlazado y la generación del archivo ejecutable para código fuente en C con make. Haz uso de un buildfile.**
 
